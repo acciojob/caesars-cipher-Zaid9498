@@ -30,9 +30,9 @@ const lookup = {
   "?": "?",
   ",": ",",
 };
-let A="A".charChodeAt(0);
+let A="A".charCodeAt(0);
 
-let Z="Z".charChodeAt(0);
+let Z="Z".charCodeAt(0);
 function rot13(str) {
 	let ans="";
 	for(let i=0;i<str.length;i++){
