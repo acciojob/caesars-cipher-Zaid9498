@@ -1,5 +1,3 @@
-// Your Script here.
-
 const lookup = {
   A: "N",
   B: "O",
@@ -37,8 +35,8 @@ function rot13(str) {
 	let ans="";
 	for(let i=0;i<str.length;i++){
 		let currentChar=str[i].charCodeAt(0);
-		if(currentChar<=Z &&currentChar>=A){
-			ans +=lookup[str(i)]
+		if(currentChar <=Z && currentChar >=A){
+			ans +=lookup[str[i]]
 		}
 		else{
 			ans +=str[i];
